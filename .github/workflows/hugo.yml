@@ -72,3 +72,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Vercel Deploy Action
+        uses: ngduc/vercel-deploy-action@v19.0.12
