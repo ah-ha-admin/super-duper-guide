@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{https://github.com/ah-ha-admin/super-duper-guide}}
+      url: ${{https://ah-ha-admin/super-duper-guide}}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
