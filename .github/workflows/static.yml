@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{http://super-duper-guide.vercel.app/}}
+      url: ${{https://github.com/ah-ha-admin/super-duper-guide/deployments/activity_log?environment=github-pages}}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
